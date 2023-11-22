@@ -18,4 +18,10 @@ def precio_frutas():
     else:
         print("Lo siento no está en la lista.")
 
-precio_frutas()
+
+
+def main():
+    precio_frutas()
+
+if __name__ == "__main__":
+    main()

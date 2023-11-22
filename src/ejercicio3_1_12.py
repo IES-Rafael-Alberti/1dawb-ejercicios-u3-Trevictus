@@ -7,5 +7,8 @@ def lista_matrices():
     print(A*B)
 
 
+def main():
+    lista_matrices()
 
-lista_matrices()
+if __name__ == "__main__":
+    main()

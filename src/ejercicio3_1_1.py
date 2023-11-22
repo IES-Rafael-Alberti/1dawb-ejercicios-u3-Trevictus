@@ -5,4 +5,9 @@ def listasAsignaturas():
     for asignatura in asignaturas:
         print(asignatura)
 
-listasAsignaturas()
+
+def main():
+    listasAsignaturas()
+
+if __name__ == "__main__":
+    main()

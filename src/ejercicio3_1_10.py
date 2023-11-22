@@ -7,5 +7,9 @@ def lista_precios():
     print(max(listaprecios))
 
 
+def main():
+    lista_precios()
 
-lista_precios()
+
+if __name__ == "__main__":
+    main()

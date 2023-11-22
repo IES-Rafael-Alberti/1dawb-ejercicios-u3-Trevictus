@@ -20,5 +20,8 @@ def asignaturas():
         print(asignatura)
 
 
+def main():
+    asignaturas()
 
-asignaturas()
+if __name__ == "__main__":
+    main()

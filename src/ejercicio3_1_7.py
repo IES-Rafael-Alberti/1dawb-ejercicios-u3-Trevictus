@@ -10,4 +10,10 @@ def letras():
 
     print(lista)
 
-letras()
+
+
+def main():
+    letras()
+
+if __name__ == "__main__":
+    main()

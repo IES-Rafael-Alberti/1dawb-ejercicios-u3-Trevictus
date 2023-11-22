@@ -9,5 +9,8 @@ def pedir_palabra():
     else:
         print("No es un palíndromo.")
 
+def main():
+    pedir_palabra()
 
-pedir_palabra()
+if __name__ == "__main__":
+    main()

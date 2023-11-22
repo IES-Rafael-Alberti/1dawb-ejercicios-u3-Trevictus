@@ -9,4 +9,9 @@ def formato_fecha():
     print(dia, mes, anio)
 
 
-formato_fecha()
+def main():
+    formato_fecha()
+
+
+if __name__ == "__main__":
+    main()

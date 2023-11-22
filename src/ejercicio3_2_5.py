@@ -8,4 +8,10 @@ def creditos_asignaturas():
 
     print("El total de créditos de las asignaturas ees: ",sum(asignaturas.values()))
 
-creditos_asignaturas()
+
+
+def main():
+    creditos_asignaturas()
+
+if __name__ == "__main__":
+    main()

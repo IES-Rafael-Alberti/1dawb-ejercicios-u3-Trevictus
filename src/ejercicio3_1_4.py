@@ -11,4 +11,9 @@ def numeros_ganadores():
     for numeroganador in numeros:
         print(numeroganador)
 
-numeros_ganadores()
+def main():
+    numeros_ganadores()
+
+
+if __name__ == "__main__":
+    main()

@@ -12,5 +12,8 @@ def divisas():
         print("No está dentro del diccionario de divisas.")
 
 
+def main():
+    divisas()
 
-divisas()
+if __name__ == "__main__":
+    main()

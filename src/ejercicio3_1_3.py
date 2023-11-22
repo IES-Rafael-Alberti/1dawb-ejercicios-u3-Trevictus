@@ -12,4 +12,9 @@ def lista_asignaturas():
     for i in range(len(asignaturas)):
         print(asignaturas[i],nota[i])
 
-lista_asignaturas()
+
+def main():
+    lista_asignaturas()
+
+if __name__ == "__main__":
+    main()

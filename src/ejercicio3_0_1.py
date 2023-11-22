@@ -10,7 +10,8 @@ def bucle():
         cont =- 1
     print(cadena)
 
+def main():
+    bucle()
 
-
-
-bucle()
+if __name__ == "__main__":
+    main

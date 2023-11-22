@@ -11,5 +11,8 @@ def pedir_numeros():
     
 
 
+def main():
+    pedir_numeros()
 
-pedir_numeros()
+if __name__ == "__main__":
+    main()

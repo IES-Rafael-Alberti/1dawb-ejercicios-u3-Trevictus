@@ -16,4 +16,9 @@ def datos_personales():
     print(listin["nombre"],"tiene", listin["edad"],"años, vive en", listin["dirección"],"y su nº de teléfono es", listin["teléfono"])
 
 
-datos_personales()
+
+def main():
+    datos_personales()
+
+if __name__ == "__main__":
+    main()

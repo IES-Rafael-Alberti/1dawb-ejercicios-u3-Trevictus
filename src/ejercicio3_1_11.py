@@ -16,9 +16,8 @@ def producto_escalar():
         print(resultado)
     
 
+def main():
+    producto_escalar()
 
-
-
-
-
-producto_escalar()
+if __name__ == "__main__":
+    main()

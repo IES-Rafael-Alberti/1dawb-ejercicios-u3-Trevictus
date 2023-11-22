@@ -7,5 +7,8 @@ def mostrar_asignatura():
         print("Yo estudio",asignatura)
 
 
+def main():
+    mostrar_asignatura()
 
-mostrar_asignatura()
+if __name__ == "__main__":
+    main()

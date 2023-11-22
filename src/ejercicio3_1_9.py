@@ -9,4 +9,9 @@ def pedir_palabra():
 
         print("La vocal", vocal, "aparece", cantidad, "veces en la palabra", palabra)
 
-pedir_palabra()
+
+def main():
+    pedir_palabra()
+
+if __name__ == "__main__":
+    main()
