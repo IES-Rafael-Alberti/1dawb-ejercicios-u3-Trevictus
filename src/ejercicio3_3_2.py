@@ -26,12 +26,14 @@ def solicitar_primaria():
     escuelaprimaria.remove("X")
     escuelasecundaria.remove("X")
     
-    nombres_sin_repetir = escuelaprimaria | escuelasecundaria
-    print(nombres_sin_repetir)
-    nombres_repetidos = escuelaprimaria & escuelasecundaria
-    print(nombres_repetidos)
-    nombres_de_primaria_en_secundaria = escuelaprimaria - escuelasecundaria
-    print(nombres_de_primaria_en_secundaria)
+
+    print(escuelaprimaria | escuelasecundaria)
+
+    print(escuelaprimaria & escuelasecundaria)
+
+    print(escuelaprimaria - escuelasecundaria)
+
+    print(escuelaprimaria <= escuelasecundaria)
 
 
 
